@@ -1,0 +1,17 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+#action {
+  animation: bounce 0.8s infinite alternate;
+}
+
+#action-1 {
+  animation: bounce 0.8s infinite alternate;
+}
+
